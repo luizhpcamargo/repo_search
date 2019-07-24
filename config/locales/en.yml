@@ -30,4 +30,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: Repos
+  table:
+    name: Name
+    language: Language
+    stars: Stars
+    description: Description
+    owner: Owner
+    last_update: Last Update
+  errors:
+    connection: Problems with github connection, please verify with administrator
