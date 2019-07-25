@@ -1,24 +1,42 @@
-# README
+# Repos search
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project to find the 5 repositories with more stars from 5 languages (ruby, elixir, python, javascript and go) from github.
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+Ruby 2.5.0
 
-* System dependencies
+Rails 5.2.3
 
-* Configuration
+PostgreSQL
 
-* Database creation
+*SQLite for development and tests
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+clone: `git clone git@github.com:luizhpcamargo/repo_search/.git`
 
-* Services (job queues, cache servers, search engines, etc.)
+install gems: `bundle install`
 
-* Deployment instructions
+update database: `rake db:setup`
 
-* ...
+start server: `rails s`
+
+For default the project will run on `http://localhost:3000`
+
+## Tests
+
+Test suite made with rspec
+
+to run the suite you can use: `rspec spec`
+
+To update the test database: `rake db:test:prepare`
+
+## Heroku
+http://repos-search-luiz.herokuapp.com/
+
+## Somethings to improve
+
+- Do more tests with controller
+- A better control to the new projects with more stars
+- Fix CSS
