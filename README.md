@@ -38,5 +38,6 @@ http://repos-search-luiz.herokuapp.com/
 ## Somethings to improve
 
 - Do more tests with controller
+- A better query to bring the repositories
 - A better control to the new projects with more stars
 - Fix CSS
