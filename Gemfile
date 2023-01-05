@@ -6,7 +6,7 @@ ruby '2.5.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap'
 gem 'coffee-rails', '~> 4.2'
-gem 'httparty'
+gem 'httparty', '>= 0.21.0'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'pg'
